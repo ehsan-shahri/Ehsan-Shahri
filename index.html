@@ -19,9 +19,16 @@
         }
 
         /* Custom styles for videos in Recent Works */
+        #recent-works .work-item {
+            width: calc(33.33% - 20px); /* 20px is the total margin for each video (10px on each side) */
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
         #recent-works video {
             width: 100%; /* Make the videos fill the container */
         }
+        
     </style>
     <title>Ehsan-Shahri</title>
 </head>
@@ -55,17 +62,36 @@
                 Your browser does not support the video tag.
             </video>
         </div>
+        <div class="work-item">
+            <h3>Video 3</h3>
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </section>
 
     <section id="latest-news">
         <h2>Latest News</h2>
         <!-- Add a list of your awards and publications with links to papers -->
         <ul>
-            <li>November 2023: I achieved a significant milestone by successfully defending my Ph.D. thesis at the University of Aveiro. In the field of telecommunications, my thesis bears the title <strong><span style="color: green;">Software-Defined Networking for Holistic Communication Management on CPPS.</span></strong></li>
-            <!-- No line break added here -->
-            <li>November 2023: We proposed <strong><span style="color: green;">A Scalable Real-Time SDN-Based MQTT Framework for Industrial Applications</span></strong>. The paper is under review for the IEEE open journal IES.</li>
-            <!-- No line break added here -->
-            <!-- Add more entries as needed -->
+            <li>November 2023: I achieved a significant milestone by successfully defending my Ph.D. thesis at the University of Aveiro. In the field of telecommunications, my thesis bears the title <strong><span style="color: green;">Software-Defined Networking for Holistic Communication Management on CPPS.</span></strong></a> </li>
+            <br> <!-- Line break added here -->
+            <li>November 2023: We proposed <strong><span style="color: green;">A Scalable Real-Time SDN-Based MQTT Framework for Industrial Applications</span></strong></a>. The paper is under review for the IEEE open journal IES.</li>
+            <br> <!-- Line break added here -->
+            <li>September 2023: We proposed a framework for edge networks <strong><span style="color: green;">Scalable SDN-based MQTT Real-Time Communications for Edge Networks</span></strong></a> at the ETFA conference. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10275671" target="_blank">Here</a>.</li>
+            <br> <!-- Line break added here -->
+            <li>April 2023: I joined the <a href="http://www.cister.isep.ipp.pt/projects/mirai/" target="_blank">MIRAI</a> project group at the University of Porto, which focuses on developing machine intelligence techniques for smart and sustainable IoT and Edge computing applications with support from the ERDF and PORTUGAL 2020 Partnership Agreement.</li>
+            <br> <!-- Line break added here -->
+            <li>April 2023: Our paper entitled <strong><span style="color: green;">End-to-End Response Time Analysis for RT-MQTT: Trajectory Approach versus Holistic Approach</span></strong></a> was presented at the WFCS conference. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10144242" target="_blank">Here</a>.</li>
+            <br> <!-- Line break added here -->
+            <li>January 2023: We presented our paper entitled <strong><span style="color: green;">Response Time Analysis for RT-MQTT Protocol Grounded on SDN</span></strong></a> at the NG-RES workshop co-located with the HiPEAC conference. The paper is available online <a href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol108-ng-res2023/OASIcs.NG-RES.2023.5/OASIcs.NG-RES.2023.5.pdf" target="_blank">Here</a>.</li>
+            <br> <!-- Line break added here -->
+            <li>Jun 2022: I received a research grant within the framework of the base funding of the <a href="http://www.cister.isep.ipp.pt/" target="_blank">CISTER</a>.</li> (Research Centre in Real-Time and Embedded Computing Systems) at the University of Porto.</li>
+            <br> <!-- Line break added here -->
+            <li>April 2022: Our paper entitled <strong><span style="color: green;">Extending MQTT with Real-Time Communication Services Based on SDN</span></strong></a> was published in Sensors journal. The paper is available online <a href="https://www.mdpi.com/1424-8220/22/9/3162" target="_blank">Here</a>.</li>
+            <br> <!-- Line break added here -->
+            <li>July 2021: We proposed a framework providing real-time MQTT services <strong><span style="color: green;">Enhancing MQTT with Real-Time and Reliable Communication Services</span></strong></a>. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9557514" target="_blank">Here</a>.</li>
         </ul>
     </section>
 
