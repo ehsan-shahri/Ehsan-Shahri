@@ -17,6 +17,11 @@
             float: right; /* Float the image to the right of the text */
             margin: 10px; /* Adjust the margin as needed */
         }
+
+        /* Custom styles for videos in Recent Works */
+        #recent-works video {
+            width: 100%; /* Make the videos fill the container */
+        }
     </style>
     <title>Ehsan-Shahri</title>
 </head>
@@ -29,41 +34,38 @@
     <section id="about">
         <h2>About Me</h2>
         <img src="Ehsan4.jpg" alt="Ehsan Shahri">
-        <p>I am a researcher at the <a href="https://www.ua.pt/" target="_blank">University of Aveiro</a>. In my research, I focus on developing efficient real-time architectures within the Industrial Internet of Things (IIoT) domain, specifically addressing challenges related to timeliness and safety guarantees. Currently, I am actively exploring applications of Software-Defined Networking (SDN) and Time-Sensitive Networking (TSN) technologies. Simultaneously, I am investigating the potential combination of these technologies with relevant communication protocols, such as MQTT (Message Queuing Telemetry Transport). The goal is to build dynamically reconfigurable systems, potentially incorporating composability and dynamic Quality of Service (QoS) management</p>
+        <p>I am a researcher at the <a href="https://www.ua.pt/" target="_blank">University of Aveiro</a>. In my research, I focus on developing efficient real-time architectures within the Industrial Internet of Things (IIoT) domain, specifically addressing challenges related to timeliness and safety guarantees. Currently, I am actively exploring applications of Software-Defined Networking (SDN) and Time-Sensitive Networking (TSN) technologies. Simultaneously, I am investigating the potential combination of these technologies with relevant communication protocols, such as MQTT (Message Queuing Telemetry Transport). The goal is to build dynamically reconfigurable systems, potentially incorporating composability and dynamic Quality of Service (QoS) management.</p>
         <p><a href="https://scholar.google.pt/citations?hl=en&user=UhyRKTMAAAAJ" target="_blank">Google Scholar</a> / <a href="https://www.linkedin.com/in/ehsan-shahri-6114201a2/?originalSubdomain" target="_blank">LinkedIn</a>.</p>
     </section>
-
-</body>
-</html>
-
-
 
     <section id="recent-works">
         <h2>Recent Works</h2>
         <!-- Add figures, short videos, or descriptions of your recent works here -->
+        <div class="work-item">
+            <h3>Video 1</h3>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="work-item">
+            <h3>Video 2</h3>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </section>
 
     <section id="latest-news">
         <h2>Latest News</h2>
         <!-- Add a list of your awards and publications with links to papers -->
         <ul>
-            <li>November 2023: I achieved a significant milestone by successfully defending my Ph.D. thesis at the University of Aveiro. In the field of telecommunications, my thesis bears the title <strong><span style="color: green;">Software-Defined Networking for Holistic Communication Management on CPPS.</span></strong></a> </li>
-            <br> <!-- Line break added here -->
-            <li>November 2023: We proposed <strong><span style="color: green;">A Scalable Real-Time SDN-Based MQTT Framework for Industrial Applications</span></strong></a>. The paper is under review for the IEEE open journal IES.</li>
-            <br> <!-- Line break added here -->
-            <li>September 2023: We proposed a framework for edge networks <strong><span style="color: green;">Scalable SDN-based MQTT Real-Time Communications for Edge Networks</span></strong></a> at the ETFA conference. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10275671" target="_blank">Here</a>.</li>
-            <br> <!-- Line break added here -->
-            <li>April 2023: I joined the <a href="http://www.cister.isep.ipp.pt/projects/mirai/" target="_blank">MIRAI</a> project group at the University of Porto, which focuses on developing machine intelligence techniques for smart and sustainable IoT and Edge computing applications with support from the ERDF and PORTUGAL 2020 Partnership Agreement.</li>
-            <br> <!-- Line break added here -->
-            <li>April 2023: Our paper entitled <strong><span style="color: green;">End-to-End Response Time Analysis for RT-MQTT: Trajectory Approach versus Holistic Approach</span></strong></a> was presented at the WFCS conference. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10144242" target="_blank">Here</a>.</li>
-            <br> <!-- Line break added here -->
-            <li>January 2023: We presented our paper entitled <strong><span style="color: green;">Response Time Analysis for RT-MQTT Protocol Grounded on SDN</span></strong></a> at the NG-RES workshop co-located with the HiPEAC conference. The paper is available online <a href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol108-ng-res2023/OASIcs.NG-RES.2023.5/OASIcs.NG-RES.2023.5.pdf" target="_blank">Here</a>.</li>
-            <br> <!-- Line break added here -->
-            <li>Jun 2022: I received a research grant within the framework of the base funding of the <a href="http://www.cister.isep.ipp.pt/" target="_blank">CISTER</a>.</li> (Research Centre in Real-Time and Embedded Computing Systems) at the University of Porto.</li>
-            <br> <!-- Line break added here -->
-            <li>April 2022: Our paper entitled <strong><span style="color: green;">Extending MQTT with Real-Time Communication Services Based on SDN</span></strong></a> was published in Sensors journal. The paper is available online <a href="https://www.mdpi.com/1424-8220/22/9/3162" target="_blank">Here</a>.</li>
-            <br> <!-- Line break added here -->
-            <li>July 2021: We proposed a framework providing real-time MQTT services <strong><span style="color: green;">Enhancing MQTT with Real-Time and Reliable Communication Services</span></strong></a>. The paper is available online <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9557514" target="_blank">Here</a>.</li>
+            <li>November 2023: I achieved a significant milestone by successfully defending my Ph.D. thesis at the University of Aveiro. In the field of telecommunications, my thesis bears the title <strong><span style="color: green;">Software-Defined Networking for Holistic Communication Management on CPPS.</span></strong></li>
+            <!-- No line break added here -->
+            <li>November 2023: We proposed <strong><span style="color: green;">A Scalable Real-Time SDN-Based MQTT Framework for Industrial Applications</span></strong>. The paper is under review for the IEEE open journal IES.</li>
+            <!-- No line break added here -->
+            <!-- Add more entries as needed -->
         </ul>
     </section>
 
