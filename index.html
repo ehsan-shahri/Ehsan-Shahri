@@ -115,7 +115,20 @@
 
     <div class="research-item">
         <h3>End-to-End Response Time Analysis for RT-MQTT: Trajectory Approach versus Holistic Approach</h3>
-        <p style="text-align: justify;">This work extends the previous work by refining the formal system model of RT-MQTT, complementing the previous analytic approach based on the Holistic Approach (HA) with the more efficient Trajectory Approach (TA) to improve the tightness of the results. The work presents a comprehensive study of the application of response time analysis to RT-MQTT on multi-hop SDN/OpenFlow switched networks, with a focus on the Trajectory Approach for non-preemptive fixed-priority scheduling of sporadic messages, comparing its results with those obtained using the Holistic Approach. The analytic results are verified through extensive empirical testing within the Mininet emulator framework, being determined that the RT-MQTT framework is predictable and analyzable, that both TA and HA provide safe upper-bounds to network-level latency, and that the TA presents a lower le
+        <p style="text-align: justify;">This work extends the previous work by refining the formal system model of RT-MQTT, complementing the previous analytic approach based on the Holistic Approach (HA) with the more efficient Trajectory Approach (TA) to improve the tightness of the results. The work presents a comprehensive study of the application of response time analysis to RT-MQTT on multi-hop SDN/OpenFlow switched networks, with a focus on the Trajectory Approach for non-preemptive fixed-priority scheduling of sporadic messages, comparing its results with those obtained using the Holistic Approach. The analytic results are verified through extensive empirical testing within the Mininet emulator framework, being determined that the RT-MQTT framework is predictable and analyzable, that both TA and HA provide safe upper-bounds to network-level latency, and that the TA presents a lower level of pessimism, compared to the HA, at expenses of higher complexity.</p>
+        <p><a href="https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.NG-RES.2023.5" target="_blank">Paper (NG-RES)</a> / <a href="https://ieeexplore.ieee.org/abstract/document/10144242" target="_blank">Paper (WFCS)</a></p>
+    </div>
+
+    <div class="research-item">
+        <h3>Scalable SDN-based MQTT Real-Time Communications for Edge Networks</h3>
+        <div style="text-align: center;">
+            <img src="MRT-MQTT.jpg" alt="Project 3">
+        </div>
+        <p style="text-align: justify;">This work developed a new architecture referred to as MRT-MQTT (Multicast Real-Time MQTT) that leverages multicast-based connectivity across multiple edge networks that adhere to the RT-MQTT architecture. This paradigm brings data processing and analysis closer to the network edge, aligning with the focus of several research and development efforts such as the MIRAI project. In MRT-MQTT, applications running on edge networks can explicitly state their real-time requirements. These requirements are then utilized by the SDN/OpenFlow resource manager to establish real-time channels within and between the edge networks. This architecture relies on traffic segregation to prioritize time-sensitive data flows over non-time-sensitive ones, thereby enhancing the timeliness of critical data. Multicast routing is applied between the edge networks to reduce the overall network load, consequently reducing latency and jitter values in real-time data communications. A reduction in transmission delay is achieved, amounting to 29% and 23% for QoS=0 and QoS=1, respectively, in comparison to <a href="https://www.mdpi.com/1424-8220/18/9/3071" target="_blank">DM-MQTT</a> (Direct Multicast-MQTT), and 55% and 43% compared to standard MQTT. In the latter scenario, MRT-MQTT also led to a substantial decrease in network usage, registering reductions of 58.0% and 45.0% for QoS=0 and QoS=1, respectively.</p>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/10275671" target="_blank">Paper (ETFA)</a></p>
+    </div>
+    <!-- Add more research items as needed -->
+</section>
 
 
 
